@@ -1,0 +1,3 @@
+/home/etr/test_catalog/build/CMakeFiles/media_monitor.dir
+/home/etr/test_catalog/build/CMakeFiles/edit_cache.dir
+/home/etr/test_catalog/build/CMakeFiles/rebuild_cache.dir
