@@ -53,14 +53,15 @@ Media Monitor — приложение на C++20 под Linux для перио
     "images/photo.jpg"
   ]
 }
+```
 
 ## Запуск
 
 Базовый запуск (текущая директория)
-```./media_monitor
+`./media_monitor`
 
 Запуск с параметрами
-```./media_monitor <path_to_scan> <interval_seconds>
+`./media_monitor <path_to_scan> <interval_seconds>`
 
 Пример:
 ```./media_monitor /home/user 5
