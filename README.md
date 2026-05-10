@@ -58,13 +58,16 @@ Media Monitor — приложение на C++20 под Linux для перио
 ## Запуск
 
 Базовый запуск (текущая директория)
+
 `./media_monitor`
 
 Запуск с параметрами
+
 `./media_monitor <path_to_scan> <interval_seconds>`
 
 Пример:
-```./media_monitor /home/user 5
+
+`./media_monitor /home/user 5`
 
 
 ## Доступ к приложению
@@ -72,19 +75,21 @@ Media Monitor — приложение на C++20 под Linux для перио
 После запуска:
 
 JSON API
-```http://localhost:1234/media_files
+
+`http://localhost:1234/media_files`
 
 Web-интерфейс
-```http://localhost:1234/
+
+`http://localhost:1234/`
 
 ## Завершение работы
 
 Остановка приложения:
 
-`Ctrl + C
+`Ctrl + C`
 
 ## Выходной файл
 
 Результаты сохраняются в:
 
-```~/.media_files
+`~/.media_files`
