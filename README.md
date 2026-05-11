@@ -86,6 +86,7 @@ https://raw.githubusercontent.com/yhirose/cpp-httplib/master/httplib.h
 Из корневой директории проекта выполните:
 
 ```
+mkdir build
 cd build
 cmake ..
 make -j
