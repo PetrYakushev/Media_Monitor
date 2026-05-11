@@ -62,7 +62,8 @@ Media Monitor — приложение на C++20 под Linux для перио
 ```mkdir -p build
 cd build
 cmake ..
-make -j```
+make -j
+```
 
 После успешной сборки будет создан исполняемый файл:
 
