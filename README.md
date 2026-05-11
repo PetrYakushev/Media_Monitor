@@ -55,6 +55,30 @@ Media Monitor — приложение на C++20 под Linux для перио
 }
 ```
 
+## Требования
+
+Для сборки необходимы:
+
+ - C++20-совместимый компилятор
+ - CMake версии 3.16 и выше
+ - библиотека nlohmann/json
+ - заголовочный файл httplib.h
+
+Установка зависимостей:
+
+```sudo apt update
+sudo apt install -y \
+    build-essential \
+    cmake \
+    nlohmann-json3-dev
+```
+
+Загрузка `httplib.h`:
+
+```curl -o include/httplib.h \
+https://raw.githubusercontent.com/yhirose/cpp-httplib/master/httplib.h
+```
+
 ## Сборка проекта
 
 Из корневой директории проекта выполните:
