@@ -66,7 +66,8 @@ Media Monitor — приложение на C++20 под Linux для перио
 
 Установка зависимостей:
 
-```sudo apt update
+```
+sudo apt update
 sudo apt install -y \
     build-essential \
     cmake \
@@ -84,7 +85,7 @@ https://raw.githubusercontent.com/yhirose/cpp-httplib/master/httplib.h
 
 Из корневой директории проекта выполните:
 
-```mkdir -p build
+```
 cd build
 cmake ..
 make -j
