@@ -75,7 +75,8 @@ sudo apt install -y \
 
 Загрузка `httplib.h`:
 
-```curl -o include/httplib.h \
+```
+curl -o include/httplib.h \
 https://raw.githubusercontent.com/yhirose/cpp-httplib/master/httplib.h
 ```
 
