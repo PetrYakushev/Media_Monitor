@@ -109,7 +109,7 @@ make -j
 
 Пример:
 
-`./media_monitor /home/user 5`
+`./media_monitor ~/test_catalog 0.5`
 
 
 ## Доступ к приложению
